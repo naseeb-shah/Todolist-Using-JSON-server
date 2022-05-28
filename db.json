@@ -1,11 +1,9 @@
 {
-    "task":[
-        {
-            "id":1,
-            "task":"Milk"
-        },{
-            "id":2,
-            "task":"Water"
-        }
-    ]
+  "task": [
+    {
+      "task": "sai",
+      "status": "false",
+      "id": 3
+    }
+  ]
 }
