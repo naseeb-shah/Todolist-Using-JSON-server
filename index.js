@@ -10,6 +10,7 @@ function display(x){
 li=document.createElement("li")
 li.innerHTML=`${element.task}`
  button=document.createElement('button')
+ 
  button.innerHTML=`<i class="fa-solid fa-trash-can"></i>`
  button.addEventListener('click',()=>{
      console.log(element.id)
