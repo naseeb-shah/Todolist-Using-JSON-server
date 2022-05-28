@@ -1,0 +1,86 @@
+body {
+    font-family: 'Muli', Sans-serif;
+    margin: 0;
+    /*  background-image:url('http://www.webxsystems.com/Images/Site/Sliders/bg-blur.jpg'); */
+    background-image: url('http://orig00.deviantart.net/acb6/f/2013/303/7/6/gif___running_through_the_rain_by_turst67-d6scius.gif');
+    background-size: cover;
+  }
+  
+  @media screen and (max-width: 50em) {
+    body {
+      font-size: large;
+    }
+  }
+  
+  @media screen and (max-width: 40em) {
+    body {
+      font-size: medium;
+    }
+  }
+  
+  @media screen and (max-width: 30em) {
+    body {
+      font-size: smaller;
+    }
+  }
+  
+  .page-title {
+    padding: 15px;
+    color: #22313F;
+    font-size: 1.6em;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .page-title h1 {
+    margin: 0;
+  }
+  
+  .page-title .tag {
+    padding: 0;
+    color: #3A539B;
+    font-weight: bold;
+    font-size: .7em;
+    width: 18em;
+    animation: type 2s steps(200, end);
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+  
+  .tag .caret {
+    animation: blink 1s;
+  }
+  
+  @keyframes type {
+    from {
+      width: 0;
+    }
+  }
+  
+  @keyframes blink {
+    to {
+      opacity: .0;
+    }
+  }
+  
+  .page-title [class*=icon] {
+    font-size: 1em;
+    color: #26A65B;
+  }
+  
+  #m{
+      text-align: center;
+      color: red;
+      font-weight: 700;
+      font-style: oblique;
+  }
+  #list{
+      margin-left: 20%;
+      margin: auto;
+  }
+  #list>li{
+      font-size: 35px;
+      color: aqua;
+  }
